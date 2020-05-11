@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+}
+header {
+    text-align: center;
+    padding-top: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    background-color: white;
+}
+.logo-name {
+    text-align: right;
+    padding-right: 23%;
+}
+.logo-name a{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+#name-first {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+#name-last {
+    text-decoration: none;
+    font-weight: lighter;
+    color: gray;
+}
+.nav {
+    float: left;
+    list-style: none;
+    width: 100%;
+    padding: 0
+    ;
+}
+.nav li {
+    list-style-type: none; 
+    display: inline-block;
+    margin-right: 45px;
+    margin-left: 45px;
+
+}
+.nav li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: gray;
+    padding: 10px;
+}
+.nav li a:hover {
+    background-color: black;
+}
+.nav li a.active {
+    background-color: black;
+}
+.social li {
+    list-style-type: none;
+    float: right;
+    padding-right: 10px;
+}
+main {
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    text-align: center;
+}
+section {
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+}
+article h2 {
+    text-align: center;
+    border-bottom: solid 2px gray;
+    padding-bottom: 10px;
+}
+#contents-Profile, #contents-Life, #contents-Favorite, #contents-Portfolio {
+    margin-top: 20px;
+}
+#intro-Profile, #intro-Life, #intro-Favorite, #intro-Portfolio {
+    text-align: left;
+    margin-bottom: 50px;
+}
+#Profile ul {
+    list-style: none;
+    text-align: left;
+    font-size: 50px;
+    font-weight: lighter;
+    color: gray 
+}
+.img-Profile {
+    text-align: left;
+}
+.text-Profile ul li {
+    text-align: right;
+}
+#text-Portfolio {
+    font-size: 500px;
+}
